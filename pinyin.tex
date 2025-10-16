@@ -89,7 +89,7 @@
 \begin{tabular}{>{\largefont}c@{\hspace{3em}}>{\largefont}c@{\hspace{3em}}>{\largefont}c@{\hspace{3em}}>{\largefont}c@{\hspace{3em}}>{\largefont}c@{\hspace{3em}}>{\largefont}c@{\hspace{3em}}}
   \xpinyin{八}{ba} & \xpinyin{波}{bo} & \strike{\pinyin{be}} & \xpinyin{比}{bi} & \xpinyin{不}{bu} & \strike{\pinyin{bü}} \\  % 汉字无需加命令
   \xpinyin{怕}{pa} & \xpinyin{破}{po} & \strike{\pinyin{pe}} & \xpinyin{皮}{pi} & \xpinyin{普}{pu} & \strike{\pinyin{pü}} \\
-  \xpinyin{妈}{ma} & \xpinyin{么}{mo} & \xpinyin{么}{me} & \xpinyin{米}{mi} & \xpinyin{木}{mu} & \strike{\pinyin{mü}} \\
+  \xpinyin{妈}{ma} & \xpinyin{陌}{mo} & \xpinyin{么}{me} & \xpinyin{米}{mi} & \xpinyin{木}{mu} & \strike{\pinyin{mü}} \\
   \xpinyin{发}{fa} & \xpinyin{佛}{fo} & \strike{\pinyin{fe}} & \strike{\pinyin{fi}} & \xpinyin{夫}{fu} & \strike{\pinyin{fü}} \\
 \end{tabular}
 };
@@ -130,6 +130,43 @@
   \xpinyin{他}{ta} & \strike{\pinyin{to}} & \xpinyin{特}{te} & \xpinyin{体}{ti} & \xpinyin{土}{tu} & \strike{\pinyin{tü}} \\
   \xpinyin{那}{na} & \strike{\pinyin{no}} & \xpinyin{呢}{ne} & \xpinyin{你}{ni} & \xpinyin{努}{nu} & \xpinyin{女}{nü} \\
   \xpinyin{拉}{la} & \strike{\pinyin{lo}} & \xpinyin{乐}{le} & \xpinyin{利}{li} & \xpinyin{路}{lu} & \xpinyin{旅}{lü} \\
+\end{tabular}
+};
+\end{tikzpicture}
+\end{center}
+
+\section{g、k、h}
+
+\begin{center}
+\renewcommand{\arraystretch}{3} % 增加行间距
+\xpinyinsetup{ % 调整拼音字体大小
+  font={\fontspec{DejaVu Sans Mono}\fontsize{36pt}{40pt}\selectfont},
+}
+\begin{tikzpicture}
+\node[draw, inner sep=5pt, rounded corners=3pt] {
+\begin{tabular}{c@{\hspace{3em}}c@{\hspace{3em}}c@{\hspace{3em}}c@{\hspace{3em}}c@{\hspace{3em}}c}
+  \pinyin{ga} & \strike{\pinyin{go}} & \pinyin{ge} & \pinyin{gi} & \pinyin{gu} & \strike{\pinyin{gü}} \\
+  \pinyin{ka} & \strike{\pinyin{ko}} & \pinyin{ke} & \pinyin{ki} & \pinyin{ku} & \strike{\pinyin{kü}} \\
+  \pinyin{ha} & \strike{\pinyin{ho}} & \pinyin{he} & \pinyin{hi} & \pinyin{hu} & \strike{\pinyin{hü}} \\
+\end{tabular}
+};
+\end{tikzpicture}
+
+\vspace{2em}
+
+\renewcommand{\arraystretch}{5} % 增加行间距
+\xpinyinsetup{ % 调整拼音字体大小
+  font={\fontspec{DejaVu Sans Mono}\selectfont},
+  ratio={1},
+  hsep={.5em plus .3em minus .3em},
+  vsep={1em}
+}
+\begin{tikzpicture}
+\node[draw, inner sep=5pt, rounded corners=3pt] {
+\begin{tabular}{>{\largefont}c@{\hspace{3em}}>{\largefont}c@{\hspace{3em}}>{\largefont}c@{\hspace{3em}}>{\largefont}c@{\hspace{3em}}>{\largefont}c@{\hspace{3em}}>{\largefont}c@{\hspace{3em}}}
+  \xpinyin{嘎}{ga} & \strike{\pinyin{go}} & \xpinyin{个}{ge} & \strike{\pinyin{gi}} & \xpinyin{古}{gu} & \strike{\pinyin{gü}} \\
+  \xpinyin{卡}{ka} & \strike{\pinyin{ko}} & \xpinyin{可}{ke} & \strike{\pinyin{ki}} & \xpinyin{苦}{ku} & \strike{\pinyin{kü}} \\
+  \xpinyin{哈}{ha} & \strike{\pinyin{ho}} & \xpinyin{和}{he} & \strike{\pinyin{hi}} & \xpinyin{胡}{hu} & \strike{\pinyin{hü}} \\
 \end{tabular}
 };
 \end{tikzpicture}
